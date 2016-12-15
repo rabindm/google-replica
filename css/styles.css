@@ -1,0 +1,91 @@
+/*Note for comments Top Navigation CSS Notes */
+.top-navigation li {
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  padding: 5px 10px 0 0;
+  vertical-align: bottom;
+  margin: 5px 5px 0 0;
+  font-size: 13px;
+}
+.top-navigation {
+  float: right;
+  margin-right: 25px;
+}
+* {
+  color: #000
+}
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+body {
+  background: none repeat scroll 0 0 #fff;
+  color:  #222;
+  margin: 0;
+  display: block;
+}
+.search-box{
+  position: absolute;
+  margin-top: 75px;
+  width: 100%;
+}
+div {
+  display: block;
+}
+.left-site-links {
+  float: left;
+  padding-left: 20px;
+}
+.left-site-links, right-site-links {
+  margin: 0;
+}
+.bottom-site-links {
+  bottom: 0 !important;
+  position: absolute;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+/*Media Breakpoint */
+@media screen and (max-width: 595px) {
+  .right {
+      width: 75%;
+        display:none;
+  }
+@media screen and (max-width:595px) {
+  ul.left {
+    width:70%;
+  }
+}
+  ul.left {
+      width: 60%;
+      margin: 10px auto;
+      float: none;
+    }
+  }
+
+@media (max-width:750px) {
+  .search-box input {
+    width:75%;
+  }
+
+@media (max-width:474px) {
+  * {
+    font-size:12;
+  }
+  .profile_img {
+    display: none;
+  }
+ul.nav{
+  margin-right:0;
+}
+ul.nav li {
+  margin-right:0:
+}
